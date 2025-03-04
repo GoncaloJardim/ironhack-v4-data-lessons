@@ -25,6 +25,24 @@ The 2 and 3 from above. There's no cookie-cutter answer. At most, you can automa
 
 ### Probability Distributions summary for different types of data and nature of underlying process
 
+These probability distributions are good at modelling real-life events because their underlying assumptions closely follow what happens in reality.
+
+* Discrete Data (Countable Outcomes)
+    * Bernoulli: Single binary outcome (success/failure). This works if the probability of success/failure doesn't change as you try multiple times, i.e. the events are independent of each other.
+    * Binomial: Number of successes in a fixed number of trials.
+    * Poisson: Number of events occurring in a fixed time/space interval.
+    * Geometric: Number of trials until the first success.
+* Continuous Data (Uncountable, Real Numbers)
+    * Uniform: All values in a range are equally likely.
+    * Normal (Gaussian): Data clusters symmetrically around a mean.
+    * Exponential: Models time until an event occurs (e.g., failure rate).
+    * Gamma: Generalization of the exponential, useful for waiting times.
+    * Beta: Models probabilities or proportions.
+* Other Specialized Distributions
+    * Log-Normal: Used when data is skewed and follows a multiplicative process.
+    * Weibull: Common in reliability analysis for failure times.
+    * Multinomial: Extension of binomial for multiple categorical outcomes.
+
 ### Is there a complementary function to cdf?  (sf(x) = 1 - cdf(x))
 
 ### Vanguard project
@@ -57,10 +75,10 @@ I think it's best to use [Data-to-Viz](https://www.data-to-viz.com/) for this!
 * You repeat the main line with as many visual cues as possible. It's the advertising of data science. Think color coordination between a message and a statistic, combining words (up), emojis (⬆️), colors (🟩 / 🟦) with the trend 📈 you notice. 
 
 ### What challenges do analysts typically face when presenting results to non-technical stakeholders?  
-Explaining what they did simply and **why it's important**. You can get very stuck in technical details that are irrelevant to stakeholders.  
+* Understanding why their analysis is relevant to the business. You can tell an analyst doesn't understand the business by the data they choose to analyze and the things they focus on - there are many interesting things in data, but not all of them are useful / impactful.
+* Simplifying the analysis. It's easy to get lost in the details and assume people know what you're talking about.
 
 ### Difference between statistical significance and practical significance
-
 Practical significance is: **How wrong can I afford to be about this** It's a decision-making question that requires a decision-making framework. Things to keep in mind:
 * What is the cost of getting it wrong? Do we lose $10, $100, $1,000, $1M? Will people die?
     * If I get a false positive, what's the worst that can happen? e.g. if I wrongly say that the new UI interface design isbetter, how many clients will I lose?
