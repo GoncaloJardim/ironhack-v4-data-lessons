@@ -48,10 +48,13 @@ Then, the custom is to give instructions on how to replicate your work, especial
 ## VIZ
 
 ### Best chart type for the different types of data recap
+I think it's best to use [Data-to-Viz](https://www.data-to-viz.com/) for this!
 
-### How can I ensure my visualizations are accessible and clear for stakeholders? How much knowledge do I assume they have?  
-* First off, they need to be clear to you. And by clear to you I mean that you should be able to get the gist of what's happening in 5 seconds. If you don't, it's probs too complicated.
-* Second off is a work in progress.
+### How can I ensure my visualizations are accessible and clear for stakeholders? How much knowledge do I assume they have?
+* You HAVE to understand the message your visualization is sending very well. If that is unclear to you, it will also be unclear to other people. The message can follow the SETUP + CONFLICT + RESOLUTION template to make it more impactful.
+* You simplify as much as you can without losing the essence of what you try to say. Less colors, less lines, less everything, until you have the essential.
+* You use design principle, e.g. white space, visual ordering, pre-attentive features, to guide the audience towards the conclusion you want them to reach
+* You repeat the main line with as many visual cues as possible. It's the advertising of data science. Think color coordination between a message and a statistic, combining words (up), emojis (⬆️), colors (🟩 / 🟦) with the trend 📈 you notice. 
 
 ### What challenges do analysts typically face when presenting results to non-technical stakeholders?  
 Explaining what they did simply and **why it's important**. You can get very stuck in technical details that are irrelevant to stakeholders.  
